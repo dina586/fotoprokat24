@@ -1,0 +1,213 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+
+body, .textcolor{
+	font-family:  'Ubuntu', sans-serif;;
+	color: #000;
+	font-size: 14px;
+}
+
+header a{
+	color: #000;
+}
+
+.textcolor_grey{
+	color:#75758A;
+}
+.textcolor_green{
+	color: #60B021;
+}
+
+header{
+	height: 75px;
+}
+
+.menu-icon_img{
+	float: left;
+	width: 77px;
+	text-align: center;
+	border: 1px solid #EFEFEF;
+	padding-top: 20px;
+	height: 75px;
+}
+
+nav{
+	width: 41.5%;
+	float: left;
+	padding-top: 24px;
+}
+
+nav a{
+	color: #000;
+}
+
+.menu-icons{
+	float: right;
+}
+
+nav li{
+	display: inline;
+	font-weight: bold;
+	padding: 1.5% 1.5%;
+}
+
+header p{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	padding-top: 24px;
+	padding-right: 11.5%;
+}
+
+.mainblock_ptitle{
+	font: bold 30px  'Ubuntu', sans-serif;
+	position: relative;
+	top: 415px;
+	display: table;
+	background: #fff;
+	box-shadow:inset 1px 1px 1px 0px rgba(255,255,255,.5),
+	5px 5px 10px 0px rgba(0,0,0,.1),
+	3px 3px 4px 0px rgba(0,0,0,.1);
+	padding: 10px;
+}
+
+.mainblock_image{
+	background: url('../img/header.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	min-height: 650px;
+}
+
+.container{
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+.blockinfo, .blockinfo_icon{
+	float: left;
+}
+
+.blockinfo{
+	width: 20%;
+	height: 130px;
+	padding-top: 42px;
+}
+
+.mainblock_info{
+	background: #F5F5F5;
+}
+
+.blockinfo_icon{
+	margin: 0 20px 0 0;
+}
+
+
+.mainblock_products{
+	background: #fff;
+	text-align: center;
+	padding: 2%;
+}
+.blockproducts{
+	float: left;
+	min-width: 358px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 18px;
+	    padding: 0 0 2% 0;
+}
+
+.blockproducts_priceday{
+	float: left;
+	width: 25%;
+	border: 1px solid #EFEFEF;
+	padding: 4% 0 4% 0;
+}
+
+.custom-btn {
+	margin: 2%;
+	border-radius: 31px;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	box-shadow:inset 1px 1px 1px 0px rgba(255,255,255,.5),
+	5px 5px 10px 0px rgba(0,0,0,.1),
+	3px 3px 4px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+
+
+.btn-gcolor{
+	background-color: #8EE902;
+	color: #fff;
+}
+
+.btn-wcolor{
+	background-color: #fff;
+}
+.texttransform{
+	text-transform: uppercase;
+}
+
+.textstyle{
+	width: 39%;
+	text-align: center;
+	line-height: 2;
+}
+
+.textcolor_grey{
+	padding: 0 0 5% 0;
+}
+.btn{
+	padding: 3%;
+	font-weight: bold;
+}
+
+.btn-text{
+	width: 45.5%;
+}
+.mainblock_text{
+	padding: 0 0 4% 0;
+}
+.btn-priceday{
+	width: 39.5%;
+}
+.blockproducts_button img{
+	margin: 0 10% 0 10%;
+}
+.blockproducts_photo{
+	height: 210px;
+}
+
+.priceday_fw{
+	font-weight: bold;
+	line-height: 2;
+}
+.blockproducts_photo img{
+padding: 0 0 5% 0;
+}
+.blockproducts_price{
+	height: 90px;
+}
